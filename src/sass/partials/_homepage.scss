@@ -9,35 +9,35 @@
 
 .field {
   height: 80px;
-  background-color: #242423;
-  color: lightblue;
+  background-color: $color-lightdark;
+  color: $color-lightblue;
   width: 80px;
   font-size: 2rem;
   align-items: center;
   justify-content: center;
   display: flex;
-  border: 1px solid white;
+  border: 1px solid $color-white;
   grid-gap: 1px;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .field:hover {
-  background-color: #7a7a78;
+  background-color: $color-lightdark-hover;
 }
 
 .fieldx2w {
   height: 80px;
   width: 160px;
   grid-column: span 2;
-  color: red;
+  color: $color-red;
 }
 
 .fieldx2h {
   height: 160px;
   width: 80px;
   grid-row: span 2;
-  color: red;
+  color: $color-red;
 }
 
 .grid-container {
@@ -52,20 +52,20 @@
 .display-container {
   width: 320px;
   height: 150px;
-  background-color: #242423;
+  background-color: $color-lightdark;
 }
 
 .display-container div {
-  color: lightblue;
+  color: $color-lightblue;
 }
 
 .display-content {
-  color: #fff;
+  color: $color-white;
   display: flex;
   justify-content: right;
   height: 100%;
   align-items: flex-end;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid $color-white;
   border-radius: 4px;
 }
